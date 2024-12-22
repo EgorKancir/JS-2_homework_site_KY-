@@ -1,0 +1,138 @@
+body {
+    background-color: yellow;
+}
+a, li, ul, ol, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;  
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+.js-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
+.lesson-number {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.lesson-box {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.lesson-box__title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.lesson-group {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.lesson-group__number {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20%;
+    transition: all 0.3s ease-in-out;
+}
+.lesson-group__number:hover {
+    background-color: black;
+    color: yellow;
+    transform: scale(1.2);
+}
+.lesson-group__number--active {
+    background-color: black;
+    color: yellow;
+    transform: scale(1.2);
+}
+.decor-svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: auto;
+    transform: rotate(13deg);
+}
+.newgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+.newgallery li {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px black;
+}
+.newgallery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.title-style {
+    color: red;
+}
+.visit {
+    display: none;
+}
+.hw-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.hw-group__element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+/* HW */ 

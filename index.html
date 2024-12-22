@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-2 Lesson 1</title>
+    <link rel="shortcut icon" href="./src/img/javascript_favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/style1.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="js-title">JS-2</h1>
+        <h3 class="lesson-number">Lesson 1</h3>
+        <img class="decor-svg" src="./src/img/new.svg" alt="new">
+    </header>
+    <main class="main">
+        <div class="lesson-box">
+            <h3 class="lesson-box__title">Choose a lesson</h3>
+            <div class="lesson-group">
+                <a class="lesson-group__number lesson-group__number--active" href="./index.html">1</a>
+                <a class="lesson-group__number" href="./index2.html">2</a>
+            </div>
+        </div>
+        <div class="hw-group">
+            <div class="hw-group__element">
+                <div class="ex-box">
+                    <ul id="userList">
+                        <li data-id="1">
+                            John Doe
+                            <button class="deleteButton">Delete</button>
+                        </li>
+                        <li data-id="2">
+                            Jane Smith
+                            <button class="deleteButton">Delete</button>
+                        </li>
+                        <li data-id="3">
+                            Bob Johnson
+                            <button class="deleteButton">Delete</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hw-group__element">
+                <h1>Task List</h1>
+                <div class="form-box">
+                    <form>
+                        <label for="newTask">New task:</label>
+                        <input type="text" id="newTask">
+                        <button type="button" id="addTask">Add</button>
+                    </form>
+                    <ul id="taskList"></ul>
+                </div>
+            </div>
+            <div class="hw-group__element">
+                <ul class="nav js-nav">
+                    <li><a href="#" class="btn">HTML</a></li>
+                    <li><a href="#" class="btn">CSS</a></li>
+                    <li><a href="#" class="btn">JavaScript</a></li>
+                    <li><a href="#" class="btn">NPM</a></li>
+                    <li><a href="#" class="btn">Babel</a></li>
+                    <li><a href="#" class="btn">Webpack</a></li>
+                    <li><a href="#" class="btn">React</a></li>
+                    <li><a href="#" class="btn">Redux</a></li>
+                    <li><a href="#" class="btn">NodeJS</a></li>
+                </ul>
+            </div>
+            <div class="hw-group__element">
+                <ul class="gallery js-gallery"></ul>
+                <div class="lightbox js-lightbox">
+                    <div class="lightbox__overlay"></div>
+                    <div class="lightbox__content">
+                        <img class="lightbox__image" src="" alt="">
+                    </div>
+                    <button type="button" class="lightbox__button" data-action="close-lightbox">✖️</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
