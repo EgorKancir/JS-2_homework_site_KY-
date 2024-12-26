@@ -88,12 +88,12 @@ a {
     transform: scale(1.2);
 }
 .decor-svg {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: fixed;
+    top: 10px;
+    left: 10px;
     width: 50px;
     height: auto;
-    transform: rotate(13deg);
+    transform: rotate(-13deg);
 }
 .newgallery {
     display: flex;
